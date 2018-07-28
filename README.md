@@ -9,3 +9,5 @@ $startTime = microtime(true);
 
 echo 'Elapsed time is: ', (microtime(true) - $startTime) ,' seconds';
 ```
+
+See concat.php for an interesting discovery; one which doesn't cohere with some claims I've found online.
