@@ -23,3 +23,5 @@ echo 'Elapsed time is: ', (microtime(true) - $startTime) ,' seconds';
 * avoid creating unnecessary data structures?
 * Alternative data structures? See [here](https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd).
 * foreach versus a for loop. Apparently, foreach is very inefficient when altering the data of the array. See [here](http://www.phpbench.com/).
+* `$array[] = $i` versus `array_push($array, $i)`. See [here](https://stackoverflow.com/questions/559844/whats-better-to-use-in-php-array-value-or-array-pusharray-value).
+* possibility of using `array_flip()` and `array_key_exists()`. See [here](https://stackoverflow.com/questions/8954367/are-there-alternative-data-structures-than-array-in-php-where-i-can-benefit-fro).
