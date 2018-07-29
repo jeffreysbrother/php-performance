@@ -18,6 +18,8 @@ echo 'Elapsed time is: ', (microtime(true) - $startTime) ,' seconds';
 
 ## Future ideas
 
-* generators, if building huge arrays. See [here](https://medium.com/tech-tajawal/use-memory-gently-with-yield-in-php-7e62e2480b8d)
-* unset() "unset variables which contain large amounts of data and aren't required later in the code". See [here](https://www.airpair.com/php/fatal-error-allowed-memory-size)
+* generators, if building huge arrays. See [here](https://medium.com/tech-tajawal/use-memory-gently-with-yield-in-php-7e62e2480b8d).
+* unset() "unset variables which contain large amounts of data and aren't required later in the code". See [here](https://www.airpair.com/php/fatal-error-allowed-memory-size).
 * avoid creating unnecessary data structures?
+* Alternative data structures? See [here](https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd).
+* foreach versus a for loop. Apparently, foreach is very inefficient when altering the data of the array. See [here](http://www.phpbench.com/).
