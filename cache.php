@@ -26,6 +26,6 @@ echo 'Elapsed time is: ', (microtime(true) - $startTime) ,' seconds';
 	0.088561654090881 seconds
 
 	average execution time with count() value cached:
-	0.070444266001384
+	0.070444266001384 seconds
 
 ****** END RESULTS ******/
